@@ -1,4 +1,4 @@
-	<script 		var initDemo = function(){
+	<    		var initDemo = function(){
 				var header = document.getElementById("header");
 				var skin = location.href.split('skin=')[1];
 				
@@ -136,4 +136,3 @@
 			};
 			
 			initDemo();
-			></script>

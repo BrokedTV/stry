@@ -60,19 +60,7 @@ var initDemo = function(){
               cubeEffect: skins[skin]['cubeEffect'],
     localStorage: true,
     stories: [
-      {
-        id: "ramon",
-        photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/1.jpg",
-        name: "Ramon",
-        link: "https://ramon.codes",
-        lastUpdated: timestamp(),
-        items: [
-          Zuck.buildItem("ramon-1", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/1.jpg", '', false, false, timestamp()),
-          Zuck.buildItem("ramon-2", "video", 0, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.mp4", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/2.jpg", '', false,  false, timestamp()),
-          Zuck.buildItem("ramon-3", "photo", 3, "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/3.png", 'https://ramon.codes', 'Visit my Portfolio', false, timestamp())
-        ]
-      },
-      {
+       {
         id: "gorillaz",
         photo: "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
         name: "Gorillaz",
